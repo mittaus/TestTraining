@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria", "TestTraining\Libreria.csproj", "{988AE8C1-CF60-4634-A6E4-A7E2BEAC0FAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria", "Libreria\Libreria.csproj", "{988AE8C1-CF60-4634-A6E4-A7E2BEAC0FAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreariaNUnitTest", "Leccion1NUnitTest\LibreariaNUnitTest.csproj", "{5FDF5125-0C11-4E65-B0BC-6089791AEF08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreariaNUnitTest", "LibreriaNUnitTest\LibreariaNUnitTest.csproj", "{5FDF5125-0C11-4E65-B0BC-6089791AEF08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

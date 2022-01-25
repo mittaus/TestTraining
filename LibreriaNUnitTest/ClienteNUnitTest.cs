@@ -8,19 +8,19 @@ namespace LibreriaNUnitTest
     public class ClienteNUnitTest
     {
 
-        //private Cliente cliente = null;
+        private Cliente cliente = null;
 
-        //[SetUp]
-        //public void Setup()
-        //{
-        //    cliente = new Cliente();
-        //}
+        [SetUp]
+        public void Setup()
+        {
+            cliente = new Cliente();
+        }
 
         [Test]
         public void CrearNombreCompleto_InputNombreApellido_ObtenerNombreCompleto()
         {
             //Arrange
-            Cliente cliente = new Cliente();
+            //Cliente cliente = new Cliente();
 
             //Act
             string nombreCompleto = cliente.CrearNombreCompleto("Diana", "Larrea");
@@ -37,7 +37,7 @@ namespace LibreriaNUnitTest
         [Test]
         public void ClienteNombreCompleto_NoValues_ReturnNull()
         {
-            Cliente cliente = new Cliente();
+            //Cliente cliente = new Cliente();
             cliente.CrearNombreCompleto("José Luis", "Obregon");
             Assert.IsNotNull(cliente.NombreCompleto);
         }

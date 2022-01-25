@@ -28,7 +28,7 @@ namespace LibreariaNUnitTest
         public void SumarNumeros_Input2Numeros_ModeloClasico_ReturnFalse()
         {
             //1. Arrange
-            int[] array = new int[] { 1, 2, 3 };
+            int[] array = new int[] { 1, 2, 3, 4 };
 
             //2. Act
             int totalCoincidencias = array.Where(x => x == 4).Count();
@@ -42,7 +42,7 @@ namespace LibreariaNUnitTest
         public void SumarNumeros_Input2Numeros_ModeloRestricciones()
         {
             //1. Arrange
-            int[] array = new int[] { 1, 2, 3 };
+            int[] array = new int[] { 1, 2, 3, 4 };
 
             //2. Act
             //3. Assert
@@ -112,7 +112,7 @@ namespace LibreariaNUnitTest
         }
 
         [Test]
-        [TestCase(3.1, 1)]//3
+        [TestCase(3.1, 1)]//3.1
         [TestCase(1.5, 2)]//3
         public void Multiplicar_Input2Numero_GetValorCorrectoEnRango(decimal numero1, decimal numero2)
         {

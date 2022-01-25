@@ -62,7 +62,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestTraining\Libreria.csproj">
+    <ProjectReference Include="..\Libreria\Libreria.csproj">
       <Project>{988ae8c1-cf60-4634-a6e4-a7e2beac0faa}</Project>
       <Name>Libreria</Name>
     </ProjectReference>
