@@ -32,7 +32,7 @@ namespace LibreriaNUnitTest
 
             Assert.That(numerosParesDevueltos, Has.No.Member(100));
 
-            Assert.That(numerosParesDevueltos, Is.Ordered);//.Ascending
+            Assert.That(numerosParesDevueltos, Is.Ordered.Ascending);
             //Assert.That(numerosParesDevueltos, Is.Ordered.Descending);
             Assert.That(numerosParesDevueltos, Is.Unique);
         }
@@ -41,7 +41,7 @@ namespace LibreriaNUnitTest
         public void ObtenerDeuda_Input10PorCientoDescuento_ObtenerCorrecto()
         {
             Cliente cliente = new Cliente();
-            cliente.Deuda = 112;
+            cliente.Deuda = 120;
             double descuento = 10;
 
             cliente.AgregarDescuento10PorCiento(descuento);

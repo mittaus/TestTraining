@@ -8,6 +8,7 @@ namespace Libreria
 {
     public interface ICliente
     {
+        double Deuda { get; set; }
         int Edad { get; set; }
         bool EsAdultoMayor { get; set; }
         string NombreCompleto { get; set; }

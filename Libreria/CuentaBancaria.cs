@@ -23,7 +23,7 @@ namespace Libreria
             _logger.EscribirEnConsola($"Está depositando el monto de: ${monto}");
 
             this._logger.Nivel = 2;
-            this._logger.Nivel = 2;
+            //this._logger.Nivel = 2;
             _logger.EscribirEnConsola("Se usa otra vez");
 
             this._logger.Nivel = 3;

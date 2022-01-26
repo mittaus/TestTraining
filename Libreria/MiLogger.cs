@@ -57,7 +57,7 @@ namespace Libreria
             if (saldo > 0)
                 saldoEnTexto = $"Saldo positivo. Saldo a favor: ${saldo.ToString("N2")}";
             else
-                saldoEnTexto = $"Saldo positivo. Saldo a favor: ${saldo.ToString("N2")}";
+                saldoEnTexto = $"Saldo negativo. Saldo a favor: ${saldo.ToString("N2")}";
 
             return saldo > 0;
         }
