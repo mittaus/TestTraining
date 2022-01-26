@@ -23,17 +23,17 @@ namespace LibreriaNUnitTest
 
             Assert.AreEqual(numerosParesDevueltos, numerosParesEsperados);
 
-            Assert.That(numerosParesDevueltos, Does.Contain(5));
-            Assert.Contains(5, numerosParesDevueltos);
+            Assert.That(numerosParesDevueltos, Does.Contain(6));
+            Assert.Contains(6, numerosParesDevueltos);
 
             Assert.That(numerosParesDevueltos, Is.Not.Empty);
 
-            Assert.That(numerosParesDevueltos.Count, Is.EqualTo(3));
+            Assert.That(numerosParesDevueltos.Count, Is.EqualTo(5));
 
             Assert.That(numerosParesDevueltos, Has.No.Member(100));
 
             Assert.That(numerosParesDevueltos, Is.Ordered);//.Ascending
-            Assert.That(numerosParesDevueltos, Is.Ordered.Descending);
+            //Assert.That(numerosParesDevueltos, Is.Ordered.Descending);
             Assert.That(numerosParesDevueltos, Is.Unique);
         }
 

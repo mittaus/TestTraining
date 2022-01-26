@@ -44,15 +44,10 @@
     <Compile Include="CalculadoraBasica.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Colector.cs" />
+    <Compile Include="CuentaBancaria.cs" />
+    <Compile Include="MiLogger.cs" />
+    <Compile Include="Producto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="data.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="XMLSchema1.xsd">
-      <SubType>Designer</SubType>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

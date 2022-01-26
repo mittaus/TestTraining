@@ -3,7 +3,7 @@ using NUnit.Framework;
 using System;
 using System.Linq;
 
-namespace LibreariaNUnitTest
+namespace LibreriaNUnitTest
 {
     [TestFixture]
     public class CalculadoraNUnitTest
